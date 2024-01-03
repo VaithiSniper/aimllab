@@ -95,7 +95,6 @@ def aStar(start_node, stop_node):
         # i.e, it has elements
         # find n in open_set such that f(n)=g(n)+h(n) is minimum
         n = get_next_n()
-        print(n + " is the n")
         if n == stop_node or Graph_nodes[n] == None:
             pass
             # if this n is end node or doesn't have any neighbours, then continue the loop

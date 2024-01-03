@@ -3,7 +3,7 @@ import pandas as pd
 
 data = pd.read_csv("./enjoysport.csv")
 concepts = np.array(data.iloc[:,0:-1])
-print("\nInstances are :\n", concepts)
+print("\nInstances1 are :\n", concepts)
 target = np.array(data.iloc[:,-1])
 print("\nTarget values are :\n", target)
 
